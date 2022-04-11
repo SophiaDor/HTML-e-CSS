@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div > p{
+            display: none;
+        }
+
+        div:hover > p{
+            display: block;
+            color: aliceblue;
+            border: 3px;
+            width: 4px;
+        }
+
+        div:hover{
+        color: blue;
+        }
+
+        h1:hover{
+            background-color: aliceblue;
+        }
+        h1 > p{
+            display: none;
+        }
+        h1:hover > p{
+            display: block
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de hover</h1>
+    <p>Paasse o mouse sobre o texto abaixo</p>
+    <div>passe o mouse aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+
+    <h1>
+        ecedcedcedc
+        <p>eeeeeee</p>
+    </h1>
+</body>
+</html>

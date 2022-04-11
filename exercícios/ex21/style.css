@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+a{
+    border-width: 5px;
+    border-style:dotted ;
+    border-color: brown;
+    padding: 4px;
+}
+
+
+h1{
+    background-color: aquamarine;
+    height: 150px;
+    width: 300px ;
+   
+   
+    border: 9px double rgba(225, 0, 255, 0.672) ;
+   
+    outline: 5px solid blue;
+   
+    padding: 10px;
+    
+    margin: 30px auto 30px auto;
+}
+
+
+    

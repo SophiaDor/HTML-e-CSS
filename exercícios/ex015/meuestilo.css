@@ -1,0 +1,17 @@
+@charset "UTF-8";
+body {
+    background-color:lawngreen;font-size: 20px ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: greenyellow;
+
+}
+h2 {
+    color: brown;
+}
+p {
+   text-align: center;
+   background-color:indianred ;
+   color: gold;
+}

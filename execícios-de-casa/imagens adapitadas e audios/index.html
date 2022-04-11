@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> imagens dinâmicas e áudios.</title>
+    <style>
+        body{
+            font-size: 20px;
+        }
+    </style>
+   <link rel="stylesheet" href="meustilo.css">
+</head>
+<body>
+    <h1> Imagens, dinâmicas áudios e videos </h1> <hr>
+    <dl>
+        <dt> <strong><em>imagens dinâmicas</em></strong> </dt>
+        <dd> <ins>São aquelas imagens que vão diminuir ou aumentar de acordo com o tamanho da tela do dispositivo em que a pessoa está usando.</ins></dd>
+        <dt> <strong><em>áudios</em></strong> </dt>
+        <dd> <ins>São arquivos em mp3 que vão te possibilitar auvir o conteúdo que estiver nele.</ins></dd>
+    </dl>
+
+    <h2><em>Imagens dinâmicas</em></h2>
+    <p> <strong>Que tal nós mudarmos o tamanho de algumas imagens?</strong> <br> Expl: <br>  Aumente e diminua a tela do seu dispositivo. </mark></p> <br>
+    <picture>
+        <source media="(max-width: 800px )" srcset="garota-p.png" type="image/png">
+        <source media="(max-width: 1000px )" srcset="garota-M.png" type="image/png">
+        <img src="garota-G.png" alt="a foto de uma garota.">
+    </picture> <br>
+
+     <h2> <em>Áudios</em> </h2>
+     <p> Expl:</p>
+           <audio src="happy-mistake.mp3" controls autoplay></audio>
+        <p> Esistem vários formatos áudios que você pode colocar em uma site. </p>
+
+    <h2> Videos </h2>
+     <p>existem várias formas de colocar videos.</p> 
+     <p> Expl: </p>
+     <p> <strong>Primeira forma:</strong> </p>
+     
+     <video src="pexels-olya-kobruseva-5791990.mp4" controls autoplay loop width="200"></video>
+
+     <p> Este video está em formatod e (mp4) e a forma como eu coloquei ele aí, não vai possibilitar que ele seja rodado em navegadores que não permitam rodar arquivos mp4</p>
+     <p> Segunda forma:</p>
+
+     <video controls autoplay loop width="200" >
+         <source src="pexels-mart-production-8447658.mp4" type="video/mp4">
+         <source src="video.mp4" type="mp4">
+     </video>
+     <p> esse video que está aparecendopara vocês, ele foi colocado aí de uma forma em que ele rode e arquivo mp4, etc</p>
+     
+     <p>Terseira forma:</p>
+
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/TUy6SC2MRig" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+     <p>Essa forma é a mais simples. Você simplesmente copia e cola o video da interet.</p>
+
+     
+    
+</body> 
+</html>
