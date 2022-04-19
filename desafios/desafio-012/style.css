@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+:root{
+    --fonte-destaque: 'Mont';
+}
+
 *{
     padding: 0px;
     margin: 0px;
@@ -9,24 +13,53 @@
 
 header {
         background-color: black;
+        padding: 50px;
 }
 header h1{
     text-align: center;
     color: white;
     font-size: 100px;
+    font-family: var(--fonte-destaque);
 }
 nav{
     text-align: center;
     color: white;
-     font-size:30px;
+     font-size:20px;
+    
      
 }
 
-p{
-    width:450px;
-    font-size: 50px;
-    margin: 40px;
-    line-height: 100px;
- 
- }
+
+
+    article{
+        padding: 30px;
+        background-image: url('imagens/background001.jpg');
+       background-size: cover;
+       margin-top: 70px;
+       
+    }
+
+       #principal1{
+        color: white;
+        background-color: black;
+        width: 550px;
+        margin-top: 40px;
+       margin-bottom: 20px;
+       margin-left: 10px;
+
+       }
+
+       p{
+        width:480px;
+        font-size: 45px;
+        margin-top: 70px;
+        margin-left: 31px;
+        line-height: 85px;
+        font-weight: 500;
+        font-family: sans-serif ;
+        font-style: italic;
+     
+     }
+
+     
 
