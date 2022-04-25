@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2? family= Tapeçaria & display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -48,16 +50,19 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family:var(--fonte1);
-    font-size:1.4em;
+    font-family: 'Tapeçaria';
+    font-size:2em;
 }
 
-
+section > p{
+    padding-bottom: 2em;
+}
 section.imagem > p{
     
-    background-color: rgb(29, 25, 25);
+    background-color: rgba(50, 50, 50, 0.34);
     width: 400px;
-    padding-left: 5px;
+    padding: 7px;
+    text-shadow: 1px 1px black;
 }
 
 
@@ -66,8 +71,21 @@ section.normal{
     color: black;
 }
 section.imagem{
-    background-color: rgb(57, 57, 57);
+    background-color: rgb(42, 41, 41);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(50, 50, 50, 0.323);
+    background-attachment: fixed;
+}
+
+
+#imagem-j{
+   background-image: url(imagens/background001.jpg);
+   background-position: right center;
+   background-size: cover;
+}
+#imagem-c{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
 }
 
 
