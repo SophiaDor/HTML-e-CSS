@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+
+
+div{
+    height: 600px;
+    background-color: antiquewhite;
+  
+ 
+}
+#i{
+    background-image: url(pattern003.png);
+    background-attachment: fixed;
+}
