@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dtabela</title>
+    <link rel="stylesheet" href="tabela.css">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        th, td{
+            border: 2ps solid black;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        /*Aula 38 mod 3 --> colgroup
+          Aula 39 mod 3 --> responsividade de tabela para celular*/
+        <caption>
+            Cadastro
+        </caption>
+
+        <thead>
+           <tr>
+               <th scope="col">Nome</th>
+               <th scope="col">Sexo</th>
+               <th scope="col">Idade</th>
+               <th scope="col">Profissão</th>
+           </tr>
+        </thead>
+
+        <body>
+            <tr> <td>Ana</td>
+                <td>F</td>
+                <td>34</td>
+                <td> Médica</td>
+            </tr>
+            <tr> <td>Ana</td>
+                <td>F</td>
+                <td>34</td>
+                <td> Médica</td>
+            </tr>
+            <tr> <td>Ana</td>
+                <td>F</td>
+                <td>34</td>
+                <td> Médica</td>
+            </tr>
+            <tr> <td>Ana</td>
+                <td>F</td>
+                <td>34</td>
+                <td> Médica</td>
+            </tr>
+        </body>
+        <colgroup> /* aula 38 mod 3*/
+        <col>class
+        <col>
+        <col>
+        <col>
+    </colgroup>
+
+
+        <footer>
+
+        </footer>
+    </table>
+    
+</body>
+</html>
